@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(38, 35, 35);
+}
+.card-main{
+    width: 400px;
+    height: 500px;
+    background: linear-gradient(135deg,rgb(147, 147, 255),rgb(127, 145, 247));
+    border-radius: 30px;
+    margin: 100px 0 0 500px;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    gap: 10px;
+}
+input{
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 22px;
+    padding-left: 15px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+input::placeholder{
+    color: black;
+    font-weight: 300;
+}
+button{
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 60px;
+ 
+  
+}
+button:hover{
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+.wheather-data{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+.wh-img{
+  width: 35%;
+  margin-top: 20px;
+}
+.temprature{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+    margin-top: 10px;
+}
+sup{
+    position: absolute;
+}
+.description{
+    text-transform: capitalize;
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+    margin-left:20px;
+}
+.detail{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-top: 100px;
+    color: white;
+}
+.humidity ,.wind{
+    display: flex;
+    gap: 8px;
+  
+    
+}
+.wind{
+    margin-right: 20px; 
+}
+.humidity i{
+    font-size: 40px;
+    margin-left: 20px;
+    
+}
+.wind i{
+    font-size: 40px;
+   
+   
+}
